@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CardItem from "../CardItem/CardItem";
 import { query, collection, getDocs } from "firebase/firestore";
-import db from "../Firebase/Firebase";
+import db from "../firebase";
 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);

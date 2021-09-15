@@ -1,17 +1,15 @@
 // import { collection, getDocs } from "firebase/firestore";
 // import db  from './firebase'
-import React, { useState, useEffect } from 'react'
+// import React, { useState, useEffect } from 'react'
 import './App.css'
-import Header from './components/Header';
-import CardExampleCard from '/components/CardProducts';
 
-import Header from './Components/Header/Header.js'
-import Navbar from './Components/Navbar/Navbar.js'
+import Header from './components/Header/Header' 
+import Navbar from './components/Navbar/Navbar'
 
 // views
-import Home from './views/Home/Home';
-import Nosotros from './views/Nosotros/Nosotros';
-import Contacto from './views/Contacto/Contacto';
+import Home from './views/Home/Home'
+import Nosotros from './views/Nosotros/Nosotros'
+import Contacto from './views/Contacto/Contacto'
 import Tienda from './views/Tienda/Tienda';
 
 
@@ -19,7 +17,7 @@ import Tienda from './views/Tienda/Tienda';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // Context 
-import { ItemsProvider } from './Components/ItemsContext';
+// import { ItemsProvider } from './Components/ItemsContext';
 import ItemsList from './Components/ItemsList';
 
 const App = () => {
